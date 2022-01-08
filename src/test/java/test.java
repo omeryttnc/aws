@@ -10,7 +10,10 @@ public class test {
     public void test1() {
         int a = 2;
         int b = 5;
+
+        Assert.assertEquals(7, a + b,"toplama isleminde hata var mi");
         Assert.assertEquals(11, a + b,"toplama isleminde hata var mi");
+
     }
 
     //@Test(groups = "smoke")
