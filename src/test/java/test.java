@@ -20,5 +20,6 @@ public class test {
         driver.get("https://www.w3schools.com/java/java_modifiers.asp");
 
         Assert.assertTrue(driver.getCurrentUrl().contains("w3kkkschools"));
+
     }
 }
