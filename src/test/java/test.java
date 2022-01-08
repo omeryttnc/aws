@@ -12,7 +12,7 @@ public class test {
         int b = 5;
 
         Assert.assertEquals(7, a + b,"toplama isleminde hata var mi");
-        Assert.assertEquals(11, a + b,"toplama isleminde hata var mi");
+        Assert.assertEquals(3, b-a,"cikarma isleminde hata var mi");
 
     }
 
