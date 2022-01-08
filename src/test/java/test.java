@@ -19,6 +19,6 @@ public class test {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.w3schools.com/java/java_modifiers.asp");
 
-        Assert.assertTrue(driver.getCurrentUrl().contains("w3schools"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("w3kkkschools"));
     }
 }
