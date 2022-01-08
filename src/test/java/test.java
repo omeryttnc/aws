@@ -22,7 +22,7 @@ public class test {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.w3schools.com/java/java_modifiers.asp");
 
-        Assert.assertTrue(driver.getCurrentUrl().contains("w3kkkschools"),"websitesinde hata var");
+        Assert.assertTrue(driver.getCurrentUrl().contains("w3schools"),"websitesinde hata var");
 
     }
 }
