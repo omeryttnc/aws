@@ -10,7 +10,7 @@ public class test {
     public void test1() {
         int a = 2;
         int b = 5;
-        Assert.assertEquals(7, a + b);
+        Assert.assertEquals(8, a + b);
     }
 
     @Test
