@@ -13,7 +13,7 @@ public class test {
         Assert.assertEquals(11, a + b,"toplama isleminde hata var");
     }
 
-    @Test(groups = "smoke")
+    //@Test(groups = "smoke")
     public void test2() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
