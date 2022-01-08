@@ -16,7 +16,7 @@ public class test {
 
     }
 
-    //@Test(groups = "smoke")
+    @Test(groups = "smoke")
     public void test2() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
