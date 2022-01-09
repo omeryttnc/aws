@@ -36,7 +36,7 @@ public class test {
         webDriver.get().get("https://www.w3schools.com/java/java_modifiers.asp");
 
 
-        Assert.assertTrue(webDriver.get().getCurrentUrl().contains("w3sggchools"),"websitesinde hata var");
+        Assert.assertTrue(webDriver.get().getCurrentUrl().contains("w3schools"),"websitesinde hata var");
 
     }
 }
