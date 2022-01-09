@@ -37,6 +37,7 @@ public class test {
 
 
 
+
         Assert.assertTrue(webDriver.get().getCurrentUrl().contains("w3schools"),"websitesinde hata var");
 
     }
