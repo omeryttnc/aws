@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test name="smoke test">
+    <urbanicfarm.tests.suite1.test name="smoke urbanicfarm.tests.suite1.test">
         <groups>
 
             <run>
@@ -9,11 +9,11 @@
             </run>
         </groups>
         <classes>
-            <class name="test"/>
+            <class name="urbanicfarm.tests.suite1.test"/>
 
 
         </classes>
 
-    </test>
+    </urbanicfarm.tests.suite1.test>
 </suite>
 
