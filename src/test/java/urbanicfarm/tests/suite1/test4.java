@@ -19,6 +19,7 @@ public class test4 extends BrowserTestBase {
         Assertions.assertEquals(7, a + b, "toplama isleminde hata var mi");
         Assertions.assertEquals(3, b - a, "cikarma isleminde hata var mi");
 
+
     }
 
     @Test()
